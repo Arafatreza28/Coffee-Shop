@@ -1,0 +1,10 @@
+C:\Arafat-Github\Coffee Shop\Coffee Shop\bin\Debug\Coffee Shop.exe.config
+C:\Arafat-Github\Coffee Shop\Coffee Shop\bin\Debug\Coffee Shop.exe
+C:\Arafat-Github\Coffee Shop\Coffee Shop\bin\Debug\Coffee Shop.pdb
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee Shop.csprojAssemblyReference.cache
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee_Shop.Form1.resources
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee_Shop.Properties.Resources.resources
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee Shop.csproj.GenerateResource.cache
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee Shop.csproj.CoreCompileInputs.cache
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee Shop.exe
+C:\Arafat-Github\Coffee Shop\Coffee Shop\obj\Debug\Coffee Shop.pdb
