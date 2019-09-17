@@ -35,9 +35,6 @@ namespace Coffee_Shop
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            
-           
-
 
             if (customernameTextBox.Text == "" || contactnoTextBox.Text == "" || addressTextBox.Text == "" ||
                 orderComboBox.Text == "" || quantityTextBox.Text == "")
