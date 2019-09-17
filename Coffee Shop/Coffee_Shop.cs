@@ -12,6 +12,9 @@ namespace Coffee_Shop
 {
     public partial class Form1 : Form
     {
+    
+        int i = 0;
+        
         public Form1()
         {
             InitializeComponent();
@@ -26,12 +29,12 @@ namespace Coffee_Shop
         {
             string[] customerName = new string[100];
             string[] contactNo = new string[100];
-            string[] Address = new string[100];
-            string[] Order = new string[100];
-            string[] Quantity = new string[100];
+            string[] address = new string[100];
+            string[] order = new string[100];
+            string[] quantity = new string[100];
             int[] quantity= new int[100];
             int[] price = new int[100];
-            int i = 0;
+           
 
 
             if (customernameTextBox.Text == "" || contactnoTextBox.Text == "" || addressTextBox.Text == "" ||
@@ -120,6 +123,7 @@ namespace Coffee_Shop
                 addressTextBox.Text = "";
                 orderComboBox.Text = "";
                 quantityTextBox.Text = "";
+                i++;
             }
 
         }
