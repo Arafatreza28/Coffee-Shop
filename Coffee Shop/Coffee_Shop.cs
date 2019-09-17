@@ -32,7 +32,7 @@ namespace Coffee_Shop
             string[] address = new string[100];
             string[] order = new string[100];
             string[] quantity = new string[100];
-            int[] quantity= new int[100];
+            int[] quantity1= new int[100];
             int[] price = new int[100];
            
 
@@ -76,30 +76,30 @@ namespace Coffee_Shop
             {
                 customerName[i] = customernameTextBox.Text;
                 contactNo[i] = contactnoTextBox.Text;
-                Address[i] = addressTextBox.Text;
-                Order[i] = orderComboBox.Text;
-                Quantity[i] = quantityTextBox.Text;
+                address[i] = addressTextBox.Text;
+                order[i] = orderComboBox.Text;
+                quantity[i] = quantityTextBox.Text;
 
-                quantity[i] = Convert.ToInt32(Quantity[i]);
+                quantity1[i] = Convert.ToInt32(Quantity[i]);
 
                 if (orderComboBox.Text == "Black")
                 {
-                    price[i] = quantity[i] * 120;
+                    price[i] = quantity1[i] * 120;
                     MessageBox.Show("The bill is " + price[i] + "Tk.");
                 }
                 else if (orderComboBox.Text == "Cold")
                 {
-                    price[i] = quantity[i] * 100;
+                    price[i] = quantity1[i] * 100;
                     MessageBox.Show("The bill is " + price[i] + "Tk.");
                 }
                 else if (orderComboBox.Text == "Hot")
                 {
-                    price[i] = quantity[i] * 90;
+                    price[i] = quantity1[i] * 90;
                     MessageBox.Show("The bill is " + price[i] + "Tk.");
                 }
                 else if (orderComboBox.Text == "Regular")
                 {
-                    price[i] = quantity[i] * 80;
+                    price[i] = quantity1[i] * 80;
                     MessageBox.Show("The bill is " + price[i] + "Tk.");
                 }
                 else
@@ -110,8 +110,8 @@ namespace Coffee_Shop
 
                 purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Customer Name :" + customerName[i];
                 purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Contact Number:" + contactNo[i];
-                purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Address             :" + Address[i];
-                purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Order                 :" + Order[i];
+                purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Address             :" + address[i];
+                purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Order                 :" + order[i];
                 purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Quantity            :" + quantity[i];
                 purchase_informationRichTextBox.SelectedText = Environment.NewLine + "Price                 :" + price[i] + "Tk.";
                 purchase_informationRichTextBox.SelectedText = Environment.NewLine + "";
