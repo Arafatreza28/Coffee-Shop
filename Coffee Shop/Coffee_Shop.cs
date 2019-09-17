@@ -14,6 +14,14 @@ namespace Coffee_Shop
     {
     
         int i = 0;
+        string[] customerName = new string[100];
+        string[] contactNo = new string[100];
+        string[] address = new string[100];
+        string[] order = new string[100];
+        string[] quantity = new string[100];
+        int[] quantity1= new int[100];
+        int[] price = new int[100];
+        
         
         public Form1()
         {
@@ -27,13 +35,7 @@ namespace Coffee_Shop
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            string[] customerName = new string[100];
-            string[] contactNo = new string[100];
-            string[] address = new string[100];
-            string[] order = new string[100];
-            string[] quantity = new string[100];
-            int[] quantity1= new int[100];
-            int[] price = new int[100];
+            
            
 
 
